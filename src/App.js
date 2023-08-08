@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Routes>
-        <DefaultHOC path="/" exact Component={HomePage} />
+        <DefaultHOC path="/" exact component={HomePage} />
       </Routes>
     </>
   );

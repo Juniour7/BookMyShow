@@ -1,17 +1,25 @@
 import React from "react";
 
-export const NextArrow = () => {
+export const NextArrow = (props) => {
     return (
         <>
             <div 
                 className={props.className}
                 style={{ ...props.style, backgroundColor: "black"}}
-                onClick = {prpos.onClick}
+                onClick = {props.onClick}
             />
         </>
     );
 };
 
-export const PrevArrow = () => {
-
+export const PrevArrow = (props) => {
+    return (
+        <>
+            <div 
+                className={props.className}
+                style={{ ...props.style, backgroundColor: "black"}}
+                onClick = {props.onClick}
+            />
+        </>
+    );
 };

@@ -29,7 +29,7 @@ const EntertainmentCardSlider = () => {
     const settings = {
         infinite: true,
         autoplay: false,
-        slideToSho: 4,
+        slideToShow: 4,
         slideToScroll: 4,
         InitialSlide: 0
 
