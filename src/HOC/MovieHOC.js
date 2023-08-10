@@ -5,7 +5,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 
 //Layouts
-import MovieLayout from "../layouts/Movie.layout";
+import MovieLayout from "../layouts/Movielayout";
 
 const MovieHOC = ({ component: Component , ...rest }) => {
   //component
