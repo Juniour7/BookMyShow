@@ -38,6 +38,7 @@ const Footer = () => {
                    <h4 className="text-lg">MOVIES NOW SHOWING IN NAIROBI</h4>
                    <p>The Katha continues | OMG 2 | Rocky Aur Rani Kii Prem Kahaani | Jailer | Oppenheimer | Meg2: The French | Mission Impossible: Dead Reckoning - Part One | Barbie | Baipan Bhari Deva | Bhola Shankar </p>
                 </div>
+                <hr />
             </div>
            </footer>
         </>
