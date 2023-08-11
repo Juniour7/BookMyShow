@@ -29,11 +29,11 @@ const EntertainmentCardSlider = () => {
     const settings = {
         infinite: true,
         autoplay: false,
-        slideToShow: 4,
-        slideToScroll: 4,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         InitialSlide: 0
 
-    }
+    };
 
     return (
         <>

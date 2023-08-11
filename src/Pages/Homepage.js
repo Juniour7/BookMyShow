@@ -16,9 +16,11 @@ const HomePage = () => {
         <>
             <NavBar />
             <HeroCarousal />
+            <div className="flex felx-col gap-10">
             <div className="container mx-auto px-4">
                 <h1 className="text-2xl font-bold text-gray-800">The Best of Entertainment</h1>
                 <EntertainmentCardSlider />
+            </div>
             </div>
             <div className="bg-gift-400 py-16">
                 <div className="container mx-auto px-4">
