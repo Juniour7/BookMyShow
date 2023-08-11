@@ -1,29 +1,29 @@
 const settings = {
     infinite: true,
     autoplay: false,
-    slideToShow: 5,
-    slideToScroll: 2,
+    slidesToShow: 5,
+    slidesToScroll: 2,
     InitialSlide: 0,
     responsive: [
         {
             breakpoint: 1024,
             settings: {
-                slideToShow: 3,
-                slideToScroll: 3,
+                slidesToShow: 3,
+                slidesToScroll: 3,
             }
         },
         {
             breakpoint: 600,
             settings: {
-                slideToShow: 2,
-                slideToScroll: 2,
+                slidesToShow: 2,
+                slidesToScroll: 2,
             }
         },
         {
             breakpoint: 400,
             settings: {
-                slideToShow: 1,
-                slideToScroll: 1,
+                slidesToShow: 1,
+                slidesToScroll: 1,
             }
         }
     ]

@@ -20,7 +20,7 @@ export const Premier = () => {
             </div>
             <Slider {...settings}>
                 {PremierImages.map((image) => (
-                    <Poster {...image} isDrak />
+                    <Poster {...image} isDark />
                 ))}
             </Slider>
         </>
