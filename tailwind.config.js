@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         gift:
         {
-          50: '#f1edfe',
+          50: '#f84464',
           100: '#d2cbe9',
           200: '#b4a8d7',
           300: '#9685c6',

@@ -16,7 +16,7 @@ const PosterSlider = (props) => {
             } ></p>
             </div>
             <Slider {...settings}>
-                {props.image.map((image) => (
+                {props.images.map((image) => (
                     <Poster {...image} isDark={props.isDark} />
                 ))}
             </Slider>

@@ -1,5 +1,5 @@
 import React from "react";
-import { BiChevronRight, BiSearch } from "react-icons/bi";
+import { BiChevronRight, BiSearch, BiChevronDown, BiMenu } from "react-icons/bi";
 
 const NavSm = () => {
     return (
@@ -40,12 +40,12 @@ const NavLg = () => {
                         <input type="search" className="w-full focus:outline-none" placeholder="Search for movies, events, plays, sports and activities" />
                     </div>
                 </div>
-                <div>
+                <div className="flex items-center gap-10 start-end">
                     <span className="text-gray-400 text-xs flex items-center hover:text-white cursor-pointer">
-                        Bhubaneswar
+                        Nairobi
                         <BiChevronDown />
                     </span>
-                    <button className="bg-red text-white text-sm rounded px-2 py-1">Sign in</button>
+                    <button className="bg-gift-50 text-white text-sm rounded px-2 py-1">Sign in</button>
                     <div className="w-8 h-8 text-white">
                         <BiMenu className="w-full h-full" />
                     </div>
@@ -58,17 +58,14 @@ const NavLg = () => {
 const NavBar = () => {
     return (
         <>
-            <nav>
+            <nav className="bg-gift-800 px-4 py-2">
                 <div className="md:hidden">
-                    /* Mobile Screens*/
                     <NavSm />
                 </div>
                 <div className="hidden lg:hidden md:flex">
-                    /* Tablet screens */
                     <NavMd />
                 </div>
                 <div className="hidden lg:flex">
-                    /*Large Screens*/
                     <NavLg />
                 </div>
             </nav>
