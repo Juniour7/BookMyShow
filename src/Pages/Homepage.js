@@ -4,13 +4,18 @@ import React from "react";
 import EntertainmentCardSlider from "../components/Entertainment/Entertainmentcard.component";
 import  Premier  from "../components/Premier/premier.component";
 import PosterSlider from "../components/Poster slider/Posterslider.component";
+import NavBar from "../components/Navbar/navabar.component";
+
 
 //config
 import PremierImages from "../config/TempPostersconfig";
+import HeroCarousal from "../components/HeroCarousal/HeroCarousal.component";
 
 const HomePage = () => {
     return (
         <>
+            <NavBar />
+            <HeroCarousal />
             <div className="container mx-auto px-4">
                 <h1 className="text-2xl font-bold text-gray-800">The Best of Entertainment</h1>
                 <EntertainmentCardSlider />

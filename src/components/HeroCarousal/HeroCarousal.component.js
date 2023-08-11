@@ -41,7 +41,7 @@ const HeroCarousal = () => {
 
     return (
         <>
-            <div>
+            <div className="lg:hidden">
                 <HeroSlider {...settings}>
                     {
                         images.map((image) => (

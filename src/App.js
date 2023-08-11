@@ -17,18 +17,14 @@ import "slick-carousel/slick/slick-theme.css"
 function App() {
   return (
     <>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/movie/:id" element={<Movie />} />
+        </Routes>
         {/* <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/movie/:id" element={<Movie />} />
         </Routes> */}
-        <Routes>
-          <Route path="/" element={<DefaultHOC />} >
-            <Route index element={<HomePage />} />
-          </Route>
-          <Route path="/movie" element={<MovieHOC />}>
-            <Route path=":id" element={<Movie />}/>
-          </Route>
-        </Routes>
     </>
   );
 };
