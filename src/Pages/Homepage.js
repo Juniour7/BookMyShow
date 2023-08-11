@@ -5,6 +5,7 @@ import EntertainmentCardSlider from "../components/Entertainment/Entertainmentca
 import  Premier  from "../components/Premier/premier.component";
 import PosterSlider from "../components/Poster slider/Posterslider.component";
 import NavBar from "../components/Navbar/navabar.component";
+import Footer from "../components/Footer/footer.component";
 
 
 //config
@@ -31,20 +32,28 @@ const HomePage = () => {
                     <Premier />
                 </div>
             </div>
-            <div>
+            <div className="px-2">
                 <PosterSlider 
                     images={PremierImages}
                     title= "Outdoor events"
                     isDark={false}
                 />
             </div>
-            <div>
+            <div className="px-2">
                 <PosterSlider 
                     images={PremierImages}
                     title= "Online Streaming Events"
                     isDark={false}
                 />
             </div>
+            <div className="px-2">
+                <PosterSlider 
+                    images={PremierImages}
+                    title= "Online Streaming Events"
+                    isDark={false}
+                />
+            </div>
+            <Footer />
         </>
     )
 };
