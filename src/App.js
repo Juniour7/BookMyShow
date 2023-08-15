@@ -1,13 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
-//HOC
-import { DefaultHOC } from "./HOC/Default.HOC";
-import { MovieHOC } from "./HOC/MovieHOC";
 
 //Pages
 import HomePage from "./Pages/Homepage";
 import Movie from "./Pages/Moviepage";
-
+import Plays from "./Pages/Playspage";
 
 // Import css files
 import "slick-carousel/slick/slick.css";
@@ -20,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/movie/:id" element={<Movie />} />
+          <Route path="/plays" element={<Plays />} />
         </Routes>
         {/* <Routes>
           <Route path="/" element={<HomePage />} />

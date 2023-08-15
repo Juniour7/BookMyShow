@@ -13,8 +13,8 @@ const HeroCarousal = () => {
         arrows: true,
         autoplay: true,
         centerMode: true,
-        slideToShow: 1,
-        slideToScroll:1,
+        slidesToShow: 1,
+        slidesToScroll:1,
         centerPadding: "300px",
         infinite: true,
         prevArrow: <PrevArrow />,
@@ -46,7 +46,7 @@ const HeroCarousal = () => {
                     {
                         images.map((image) => (
                             <div className="w-full h-64 md:h-80 py-3">
-                                <img src={image} alt="testing" className="w-full h-full rounded-md" />
+                                <img src={image} alt="testing" className="w-full h-full " />
                             </div>
                         ))
                     }
@@ -57,7 +57,7 @@ const HeroCarousal = () => {
                 {
                     images.map((image) => (
                         <div className="w-full h-64">
-                            <img src={image} alt="testing" className="w-full h-full rounded-md" />
+                            <img src={image} alt="testing" className="w-full h-full " />
                         </div>
                     ))
                 }
