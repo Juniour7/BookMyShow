@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+
 
 //Transforms component into another component
 //Adding additional functionalities to the existing components.
@@ -12,13 +12,7 @@ export const MovieHOC = ({ component: Component , ...rest }) => {
   //props -> path exact
   return (
     <>
-    <Route>
-    component = {(props) => (
-      <MovieLayout>
-       <Component {...props} />
-      </MovieLayout>
-    )}
-    </Route>
+      <MovieLayout />
     </>
   );
 };

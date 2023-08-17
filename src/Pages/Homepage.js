@@ -32,7 +32,7 @@ const HomePage = () => {
                     <Premier />
                 </div>
             </div>
-            <div className="px-2">
+            <div className="px-2 ">
                 <PosterSlider 
                     images={PremierImages}
                     title= "Outdoor events"

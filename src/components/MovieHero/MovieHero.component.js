@@ -21,7 +21,7 @@ const MovieHero = () => {
                 <div className="absolute h-full w-full z-10"
                 style={{ backgroundImage: "linear-gradient(90deg, rgb(34, 34, 34) 24.97%, rgb(34, 34, 34) 38.3%, rgba(34, 34, 34, 0.04) 97.47%, rgb(34, 34, 34) 100%)"}}
                 />
-                <div className=" flex absolute z-30 w-56 h-96 left-64 top-10">
+                <div className=" absolute z-30 w-56 h-96 left-64 top-10">
                     <img
                     src="https://in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/shang-chi-and-the-legend-of-the-ten-rings-et00122566-24-08-2021-02-01-36.jpg"
                     alt="poster"
@@ -33,7 +33,7 @@ const MovieHero = () => {
                  className="w-full h-full" />
                 <div className="flex absolute z-30">
                     <h1 className="text-bold text-xl text-white">OMG 2</h1>
-                    <div className="bg-gray-500">
+                    <div className="bg-gray-500 w-50 h-30 py-3">
                         <h3 className="font-bold text-md text-white">Add Your rating & review</h3>
                         <h5 className="text-gray-200 text-sm font-bold">Your ratings matter</h5>
                         <span>

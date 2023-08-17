@@ -22,7 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-package-lock.json
-package.json.planning.js
-reportWebVitals.js
-setupTests.js
+package-lock.json/
+package.json.planning.js/
+reportWebVitals.js/
+setupTests.js/
+
+.env
