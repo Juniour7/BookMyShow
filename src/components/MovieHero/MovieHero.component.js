@@ -31,16 +31,7 @@ const MovieHero = () => {
                  src="https://in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/shang-chi-and-the-legend-of-the-ten-rings-et00122566-24-08-2021-02-01-36.jpg"
                  alt="poster"
                  className="w-full h-full" />
-                <div className="flex absolute z-30">
-                    <h1 className="text-bold text-xl text-white">OMG 2</h1>
-                    <div className="bg-gray-500 w-50 h-30 py-3">
-                        <h3 className="font-bold text-md text-white">Add Your rating & review</h3>
-                        <h5 className="text-gray-200 text-sm font-bold">Your ratings matter</h5>
-                        <span>
-                            <button className="bg-white text-gray-600 rounded-md px-3 py-2 hover:cursor-pointer">Rate Now</button>
-                        </span>
-                    </div>
-                </div>
+               
             </div>
         </>
     )

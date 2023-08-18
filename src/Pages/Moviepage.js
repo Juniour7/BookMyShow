@@ -3,6 +3,24 @@ import { BiCameraMovie } from "react-icons/bi";
 
 //component
 import MovieHero from "../components/MovieHero/MovieHero.component";
+import MovieCarousel from "../components/MovieCarousel/Movie.carousel.component";
+
+const launchPaypal = () => {
+    let options = {
+        key: "ur api id",
+        amount: 500*100,
+        currency: "INR",
+        name: "Book My Show",
+        description: "Movie Purchase on Rental",
+        image: "https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png",
+        handler: () => {
+            alert("Payment Successful")
+        },
+        theme: {color: "#c4242d"}
+    };
+    let ppl = new window.Paypal(options);
+    ppl.open();
+};
 
 const Movie = () => {
     return (
@@ -28,8 +46,9 @@ const Movie = () => {
                         </div>
                     </div>
                 </div>
-                <button  class="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-8 rounded">Book Tickets</button>
+                <button onClick={launchPaypal} class="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-8 rounded">Book Tickets</button>
            </div>
+           <MovieCarousel />
         </>
     );
 };
