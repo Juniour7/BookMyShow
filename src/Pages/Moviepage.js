@@ -4,6 +4,7 @@ import { BiCameraMovie } from "react-icons/bi";
 //component
 import MovieHero from "../components/MovieHero/MovieHero.component";
 import MovieCarousel from "../components/MovieCarousel/Movie.carousel.component";
+import Footer from "../components/Footer/footer.component";
 
 const launchPaypal = () => {
     let options = {
@@ -49,6 +50,7 @@ const Movie = () => {
                 <button onClick={launchPaypal} class="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-8 rounded">Book Tickets</button>
            </div>
            <MovieCarousel />
+           <Footer />
         </>
     );
 };
