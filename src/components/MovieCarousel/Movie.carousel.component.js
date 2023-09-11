@@ -15,7 +15,7 @@ const MovieCarousel = () => {
 
     useEffect(() => {
         const requestImages = async() => {
-            const getImages = await axios.get("/tv/airing_today");
+            const getImages = await axios.get("/person-images");
             setImages(getImages.data.results);
         };
         requestImages();
